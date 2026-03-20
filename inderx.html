@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Developer | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #0f172a; color: #f8fafc; }
+        .gradient-text {
+            background: linear-gradient(90deg, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased">
+
+    <nav class="p-6 flex justify-between items-center max-w-5xl mx-auto">
+        <div class="text-xl font-bold tracking-tighter tracking-widest">DEV_PORTFOLIO</div>
+        <div class="space-x-6 text-sm font-medium text-slate-400">
+            <a href="#projects" class="hover:text-sky-400 transition">Projects</a>
+            <a href="https://github.com/tuusuario" target="_blank" class="hover:text-sky-400 transition">GitHub</a>
+        </div>
+    </nav>
+
+    <header class="max-w-5xl mx-auto px-6 py-20">
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-6">
+            Building digital <br> <span class="gradient-text">solutions & experiences.</span>
+        </h1>
+        <p class="text-lg text-slate-400 max-w-2xl mb-8">
+            Software Developer focused on clean code, automation, and building high-performance applications.
+        </p>
+        <div class="flex gap-4">
+            <a href="#projects" class="bg-sky-500 hover:bg-sky-600 px-6 py-3 rounded-lg font-semibold transition">View Work</a>
+            <a href="mailto:tu-email@ejemplo.com" class="border border-slate-700 hover:bg-slate-800 px-6 py-3 rounded-lg font-semibold transition">Contact Me</a>
+        </div>
+    </header>
+
+    <section id="projects" class="max-w-5xl mx-auto px-6 py-20">
+        <h2 class="text-2xl font-bold mb-10 flex items-center">
+            <span class="text-sky-400 mr-2">01.</span> Featured Projects
+        </h2>
+        
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="group bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-sky-500/50 transition">
+                <span class="text-xs font-mono text-sky-400 mb-2 block uppercase">Web Application</span>
+                <h3 class="text-xl font-bold mb-3">Project Name Two</h3>
+                <p class="text-slate-400 mb-6 text-sm">
+                    A brief description of what this tool does. You can mention the stack (e.g., Python, C++, or React).
+                </p>
+                <a href="https://tuusuario.github.io/tu-segundo-repo/" class="text-sm font-bold flex items-center group-hover:underline">
+                    Launch Demo 
+                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </a>
+            </div>
+
+            <div class="group bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-sky-500/50 transition">
+                <span class="text-xs font-mono text-sky-400 mb-2 block uppercase">Automation Tool</span>
+                <h3 class="text-xl font-bold mb-3">Project Name Three</h3>
+                <p class="text-slate-400 mb-6 text-sm">
+                    Explain how this project solves a specific problem or automates a manual task effectively.
+                </p>
+                <a href="https://github.com/tuusuario/repo-tres" class="text-sm font-bold flex items-center group-hover:underline">
+                    View Repository
+                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="max-w-5xl mx-auto px-6 py-10 text-center border-t border-slate-800 text-slate-500 text-sm">
+        <p>© 2026 Designed & Built by You. Hosted on GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
