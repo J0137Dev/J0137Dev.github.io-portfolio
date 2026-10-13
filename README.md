@@ -22,4 +22,3 @@ Click the buttons below to explore my work in different formats:
 ### 📫 Connect with Me
 * **LinkedIn:** [linkedin.com/in/bryan-martinez-pabón](https://www.linkedin.com/in/bryan-martinez-pabón-7624b3220/)
 * **Email:** BMartinez0137@gmail.com
-* **Location:** San German, PR
